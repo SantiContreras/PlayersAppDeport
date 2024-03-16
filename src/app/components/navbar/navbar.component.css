@@ -1,0 +1,104 @@
+.contenido-header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 99;
+}
+
+.contenido-header header {
+    max-width: 1100px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 20px;
+
+
+
+}
+
+.contenido-header header .logo a {
+
+    font-size: 30px;
+    color: rgb(187, 167, 149);
+    text-decoration: none;
+
+}
+
+
+.contenido-header header ul {
+    display: flex;
+    list-style: none;
+}
+
+.contenido-header header nav ul li a {
+    text-align: none;
+    margin: 0 15px;
+    color: azure;
+    padding: 4px;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 18px;
+
+}
+
+.contenido-header header nav ul li i {
+    padding: auto;
+
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+
+.contenido-header header nav ul li a:hover {
+    color: rgb(18, 32, 18);
+}
+
+.contenido-header header nav ul li ul.dropdown li {
+    display: block;
+    margin: 20px 0px;
+    color: beige;
+
+}
+
+.contenido-header header nav ul li ul.dropdown {
+    width: 80%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background: black;
+
+
+}
+
+.contenido-header header nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+.contenido-header header nav ul li ul.dropdown li i.conectado {
+    color: aqua;
+    font-size: 20px;
+}
+
+.contenido-header header nav ul li ul.dropdown li i.logout {
+    color: rgb(238, 12, 12);
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.contenido-header header nav ul li ul.dropdown li a {
+  
+}
+
+.contenido-header header nav ul li  a i.flecha {
+     margin-left: 15px;
+    font-size: 18px;
+}
+
+.contenido-header header nav ul li a{
+    margin-left: 20px;
+}
