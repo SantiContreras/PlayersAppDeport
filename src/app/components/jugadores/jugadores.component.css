@@ -1,0 +1,54 @@
+*{
+  font-family: "montserrat";
+}
+main.table{
+  width: 100%;
+  height: 90vw;
+  background-color: rgb(204, 196, 185);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 .4rem .8rem #444;
+  border-radius: .8rem;
+  overflow: hidden;
+}
+
+.table_header{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(174, 185, 154);
+  padding: 0.1rem;
+ 
+}
+
+.table_header h3{
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+ table ,th ,td{
+  padding: 1rem;
+  justify-content: center;
+  border-collapse: collapse;
+ }
+
+ .table_body{
+  width: 95%;
+  max-width: calc(89%- .8rem);
+  background-color: rgb(219, 206, 206);
+  margin: .8rem auto;
+  border-radius: .6rem;
+  overflow: auto;
+ }
+
+ thead th{
+  position: sticky;
+  top: 0%;
+  left: 0;
+  background-color: rgb(158, 153, 147);
+ }
+ tbody tr:nth-child(even){
+  background-color: rgb(211, 190, 190);
+ }
+tbody tr:hover{
+  background-color: rgb(177, 172, 153);
+}

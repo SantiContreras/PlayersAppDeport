@@ -1,1 +1,37 @@
-<p>jugadores works!</p>
+<main class="table">
+
+    <div class="table_header">
+        <h3>Jugadores orden</h3>
+    </div>
+
+    <div class="table_body">
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>dni</th>
+                    <th>fechaNac</th>
+                    <th>altura</th>
+                    <th>posicion</th>
+                    <th>img</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let jugador of jugadores">
+
+                    <td>{{jugador.id}} </td>
+                    <td>{{jugador.nombre}}</td>
+                    <td>{{jugador.apellido}}</td>
+                    <td>{{jugador.dni}}</td>
+                    <td>{{jugador.fechaNac}}</td>
+                    <td>{{jugador.altura}}</td>
+                    <td>{{jugador.posicion}}</td>
+                    <td>{{jugador.img}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</main>

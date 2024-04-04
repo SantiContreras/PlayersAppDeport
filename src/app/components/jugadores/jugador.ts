@@ -5,6 +5,7 @@ export class Jugador {
     dni:string;
     fechaNac:string;
     altura:string
+    posicion:string
     img:string
     
 }

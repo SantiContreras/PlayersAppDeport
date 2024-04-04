@@ -1,10 +1,15 @@
 .contenido-header {
     background-color: black;
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 0%;
+    top: -1%;
     left: 0%;
+    right: 0;
     z-index: 99;
+    margin-top: 0%;
+    margin-left: 0%;
+   
+   
 }
 
 .contenido-header header {
@@ -90,9 +95,7 @@
 
 }
 
-.contenido-header header nav ul li ul.dropdown li a {
-  
-}
+
 
 .contenido-header header nav ul li  a i.flecha {
      margin-left: 15px;

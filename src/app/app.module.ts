@@ -6,6 +6,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ListPlayersComponent } from './components/list-players/list-players.component';
 import { JugadoresComponent } from './components/jugadores/jugadores.component';
+import { Routes , RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http'
+
+const routes:Routes = [
+  { path:'',redirectTo:'' ,pathMatch:'full'},
+  {path:'jugadores',component:JugadoresComponent},
+  {path:'listajugadores',component:ListPlayersComponent},
+]
 
 @NgModule({
   declarations: [
@@ -16,7 +24,9 @@ import { JugadoresComponent } from './components/jugadores/jugadores.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
