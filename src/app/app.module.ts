@@ -7,12 +7,17 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ListPlayersComponent } from './components/list-players/list-players.component';
 import { JugadoresComponent } from './components/jugadores/jugadores.component';
 import { Routes , RouterModule } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FormComponent } from './components/jugadores/form.component';
+import { FormsModule } from '@angular/forms';
+
+
 
 const routes:Routes = [
   { path:'',redirectTo:'' ,pathMatch:'full'},
   {path:'jugadores',component:JugadoresComponent},
   {path:'listajugadores',component:ListPlayersComponent},
+  {path:'jugadores/nuevo', component:FormComponent}
 ]
 
 @NgModule({
@@ -20,12 +25,15 @@ const routes:Routes = [
     AppComponent,
     NavbarComponent,
     ListPlayersComponent,
-    JugadoresComponent
+    JugadoresComponent,
+    FormComponent
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

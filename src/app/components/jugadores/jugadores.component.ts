@@ -10,11 +10,11 @@ import { Jugador } from './jugador';
 export class JugadoresComponent implements OnInit {
 
   jugadores: Jugador[] = [ 
-    {id:1 ,nombre:'santiago',apellido:'contreras',dni:'35667899',fechaNac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
-    {id:1 ,nombre:'ramon',apellido:'aguilar',dni:'35667899',fechaNac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
-    {id:1 ,nombre:'juan manuel',apellido:'galaxy',dni:'3589674',fechaNac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
-    {id:1 ,nombre:'jorge roman',apellido:'lux',dni:'3558963',fechaNac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
-    {id:1 ,nombre:'martin jose',apellido:'guzman',dni:'3647895',fechaNac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'}
+    {id:1 ,nombre:'santiago',apellido:'contreras',dni:'35667899',fechanac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
+    {id:1 ,nombre:'ramon',apellido:'aguilar',dni:'35667899',fechanac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
+    {id:1 ,nombre:'juan manuel',apellido:'galaxy',dni:'3589674',fechanac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
+    {id:1 ,nombre:'jorge roman',apellido:'lux',dni:'3558963',fechanac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'},
+    {id:1 ,nombre:'martin jose',apellido:'guzman',dni:'3647895',fechanac:'23/03/1990',altura:'1,78',posicion:'base',img:'llalla'}
   ];
 
   

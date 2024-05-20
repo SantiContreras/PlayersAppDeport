@@ -1,0 +1,74 @@
+ h3{
+    color: #1b1b1b;
+}
+
+.contacto {
+
+
+    background: #dd3e54;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+    color: aliceblue;
+    padding: 50px 0;
+}
+
+.contacto .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contacto h2 {
+    font-family: 'Roboto';
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto .fila {
+    display: flex;
+}
+
+.contacto .col {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+}
+
+.contacto .col input,
+.contacto .col textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #1b1b1b;
+    color: rgb(237, 250, 247);
+    border: none;
+    font-size: 19px;
+    padding: 18px;
+
+
+}
+
+.contacto button {
+
+    cursor: pointer;
+    background-color:rgb(106, 110, 106);
+    border: 2px solid #fff;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 19px;
+    position: relative;
+    margin-left: 0%;
+    color: rgb(8, 8, 8);
+    z-index: 10;
+}
+
+.contacto button:hover {
+
+    transition: 1s;
+    background-color: rgb(219, 216, 30);
+}

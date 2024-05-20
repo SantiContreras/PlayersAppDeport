@@ -3,7 +3,7 @@ export class Jugador {
     nombre:string;
     apellido:string;
     dni:string;
-    fechaNac:string;
+    fechanac:string;
     altura:string
     posicion:string
     img:string

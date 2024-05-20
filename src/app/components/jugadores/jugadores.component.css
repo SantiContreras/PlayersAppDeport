@@ -16,13 +16,40 @@ main.table{
   height: 5%;
   background-color: rgb(174, 185, 154);
   padding: 0.1rem;
+  
+ 
  
 }
 
-.table_header h3{
+
+
+.table_header .elementos{
+  display: flex;
+  
+ 
+}
+
+.table_header .elementos h3{
   text-align: left;
   margin-left: 10px;
 }
+
+.table_header .elementos button{
+margin-left: 80%;
+padding: 10px ;
+margin-bottom: 20px;
+margin-top: 5px;
+font-size: 17px;
+border-radius: 8px;
+color: aliceblue;
+background-color: black;
+}
+
+.table_header .elementos button:hover{
+  background-color: rgb(42, 48, 41);
+}
+
+
 
 
  table ,th ,td{
